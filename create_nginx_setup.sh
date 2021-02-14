@@ -1,8 +1,8 @@
 #!/bin/bash
 
 TYPE=$1
-PORT_NAME=$2
-URL=$3
+URL=$2
+PORT_NAME=$3
 INDEX_FILE_PATH=$4
 
 URL_ARR=(${URL//,/ })
