@@ -9,7 +9,7 @@ It is a shell script which creates the Nginx Config File
 $ sudo bash create_nginx_setup.sh <TYPE> <URL> <PORT> <INDEX_FILE_PATH>
 ```
 
-TYPE = api | static
-PORT = Port Number 
-URL = example.com | example.com,www.example.com
+TYPE = api | static <br />
+PORT = Port Number <br />
+URL = example.com | example.com,www.example.com <br />
 INDEX_FILE_PATH = file path of index.html file | default (/var/www/html)
